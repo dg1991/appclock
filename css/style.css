@@ -1,0 +1,79 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #5290f4;
+  color: #001f3f;
+}
+
+.container {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+#box_1,
+#box_2,
+#box_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 200px;
+  height: 200px;
+  font-size: 10rem;
+  border-radius: 50px;
+  background: #5290f4;
+  -webkit-box-shadow: -20px 20px 60px #467acf, 20px -20px 60px #5ea6ff;
+          box-shadow: -20px 20px 60px #467acf, 20px -20px 60px #5ea6ff;
+}
+
+#box_1 span,
+#box_2 span,
+#box_3 span {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#hora,
+#minutos,
+#segundos {
+  line-height: 8rem;
+}
+/*# sourceMappingURL=style.css.map */

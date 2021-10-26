@@ -1,0 +1,59 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5290f4;
+    color: #001f3f;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+#box_1,
+#box_2,
+#box_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    font-size: 10rem;
+    border-radius: 50px;
+    background: #5290f4;
+    box-shadow: -20px 20px 60px #467acf,
+        20px -20px 60px #5ea6ff;
+
+    span {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+#hora,
+#minutos,
+#segundos {
+    line-height: 8rem;
+}
